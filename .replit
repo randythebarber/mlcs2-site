@@ -1,0 +1,5 @@
+# Major League Cuts Studio 2: static website. Nothing to run or build.
+# Deploy as a "Static" deployment with the public folder set to this folder (.).
+[deployment]
+deploymentTarget = "static"
+publicDir = "."
