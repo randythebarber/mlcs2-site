@@ -1,0 +1,19 @@
+/* Extra rules for the Book, Terms and Privacy pages of the soft-launch site.
+   Uses only the Ember Lounge tokens from css/style.css. */
+.page-top { padding-top: calc(var(--head-h) + var(--s-4)); }
+.page-top .section__head h1 { font-size: var(--fs-h1-flow); }
+
+.book-frame { height: max(680px, 82vh); border: 1px solid var(--line); border-radius: var(--r-m); overflow: hidden; background: var(--cream); }
+.book-frame iframe { display: block; }
+.book-note { margin-top: var(--s-3); color: var(--cream-muted); font-size: var(--fs-small); max-width: 46em; }
+.book-note a, .prose a { color: var(--copper-light); text-underline-offset: 3px; }
+.book-backup { display: flex; flex-wrap: wrap; gap: var(--s-2); margin-top: var(--s-3); }
+
+.prose { max-width: 46em; }
+.prose h2 { font-family: var(--font-display); font-weight: 600; font-size: clamp(1.5rem, 3vw, 2rem); line-height: 1.15; margin: var(--s-4) 0 var(--s-2); color: var(--cream); }
+.prose p, .prose li { color: var(--cream-muted); }
+.prose p + p, .prose p + ul, .prose ul + p { margin-top: var(--s-2); }
+.prose ul { list-style: disc; padding-left: 1.25em; }
+.prose li + li { margin-top: var(--s-1); }
+.prose strong { color: var(--cream); font-weight: 600; }
+.updated { margin-top: var(--s-2); color: var(--cream-muted); font-size: var(--fs-small); }
